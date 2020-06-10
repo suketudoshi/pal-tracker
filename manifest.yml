@@ -6,6 +6,7 @@ applications:
   - route: pal-tracker-phoenix.apps.evans.pal.pivotal.io
   services:
   - tracker-database
+
   env:
     WELCOME_MESSAGE: Hello from the review environment
     JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
